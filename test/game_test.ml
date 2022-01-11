@@ -170,12 +170,12 @@ let transitions_set =
       `Quick
       given_player_one_at_40_other_at_30_when_other_wins
   ; test_case
-      "Given Player_one at 40 | other at 0 when other wins then score is 40 / \
+      "Given Player_one at 40 | other at 15 when other wins then score is 40 / \
        30"
       `Quick
       given_player_one_at_40_other_at_15_when_other_wins
   ; test_case
-      "Given Player_one at 15 | other at 15 when other wins then score is 30 / \
+      "Given Player_one at 15 | other at 15 when Player_one wins then score is 30 / \
        15"
       `Quick
       given_player_one_at_15_other_at_15_when_player_one_wins
